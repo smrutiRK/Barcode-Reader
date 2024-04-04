@@ -1,9 +1,36 @@
-# Description
+# Html5-Barcode 
+## Description
 
 This is a cross-platform JavaScript library to integrate QR code, bar codes & a few other types of code scanning capabilities to your applications running on HTML5 compatible browser.
 
-How to use
-For full information read this article.
+It mainly created to increase efficiency of logistics process.
+-   Supports easy scanning using an integrated webcam or camera in smartphones (Android / IOS).
+
+-   Supports scanning codes from files or default cameras on smartphones.
+
+-   **<u>Recently Added</u>** Supports bar code scanning in various formats.
+-    Supports two kinds of APIs
+    -   `Html5QrcodeScanner` — End-to-end scanner with UI, integrate with less than ten lines of code.
+    -   `Html5Qrcode` — Powerful set of APIs you can use to build your UI without worrying about camera setup, handling permissions, reading codes, etc.
+
+  ### Supported Code formats
+Code scanning is dependent on [Zxing-js](https://github.com/zxing-js/library) library. We will be working on top of it to add support for more types of code scanning. If you feel a certain type of code would be helpful to have, please file a feature request.
+
+| Code | Example |
+| ---- | ----- |
+| QR Code | <img src="./assets/qr-code.png" width="200px"> |
+| AZTEC | <img src="./assets/aztec.png" > |
+| CODE_39|  <img src="./assets/code_39.gif" > |
+| CODE_93| <img src="./assets/code_93.gif" >|
+| CODE_128| <img src="./assets/code_128.gif" >|
+| ITF| <img src="./assets/itf.png" >|
+| EAN_13|<img src="./assets/ean13.jpeg" > |
+| EAN_8| <img src="./assets/ean8.jpeg" >|
+| PDF_417| <img src="./assets/pdf417.png" >|
+| UPC_A| <img src="./assets/upca.jpeg" >|
+| UPC_E| <img src="./assets/upce.jpeg" >|
+| DATA_MATRIX|<img src="./assets/datamatrix.png" > |
+| MAXICODE*| <img src="./assets/maxicode.gif" > |
 
 Download the script from release page or install using npm with:
 
@@ -21,57 +48,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
