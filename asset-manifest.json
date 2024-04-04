@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Barcode-Reader/static/css/main.baeb5800.css",
+    "main.js": "/Barcode-Reader/static/js/main.9715c8d6.js",
+    "static/js/453.419a5d54.chunk.js": "/Barcode-Reader/static/js/453.419a5d54.chunk.js",
+    "index.html": "/Barcode-Reader/index.html",
+    "main.baeb5800.css.map": "/Barcode-Reader/static/css/main.baeb5800.css.map",
+    "main.9715c8d6.js.map": "/Barcode-Reader/static/js/main.9715c8d6.js.map",
+    "453.419a5d54.chunk.js.map": "/Barcode-Reader/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.baeb5800.css",
+    "static/js/main.9715c8d6.js"
+  ]
+}
