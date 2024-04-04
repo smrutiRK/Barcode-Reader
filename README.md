@@ -1,10 +1,17 @@
-# Getting Started with Create React App
+# Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a cross-platform JavaScript library to integrate QR code, bar codes & a few other types of code scanning capabilities to your applications running on HTML5 compatible browser.
 
-## Available Scripts
+How to use
+For full information read this article.
 
-In the project directory, you can run:
+Download the script from release page or install using npm with:
+
+npm i html5-qrcode
+Add an element you want to use as a placeholder for QR Code scanner
+
+<div id="reader" width="600px"></div>
+Ideally do not set the height of this container as the height should depend on the height of the video feed from the camera. The library would honor the existing width, otherwise apply the default width. The height is derived from the aspect ratio of the video feed.
 
 ### `npm start`
 
