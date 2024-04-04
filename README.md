@@ -30,7 +30,6 @@ Code scanning is dependent on [Zxing-js](https://github.com/zxing-js/library) li
 | UPC_A| <img src="./assets/upca.jpeg" >|
 | UPC_E| <img src="./assets/upce.jpeg" >|
 | DATA_MATRIX|<img src="./assets/datamatrix.png" > |
-| MAXICODE*| <img src="./assets/maxicode.gif" > |
 
 Download the script from release page or install using npm with:
 
